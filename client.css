@@ -1,0 +1,34 @@
+.floater {
+	background-color: #333;
+	position: fixed;
+	height: 128px;
+	width: 128px;
+	top: 32px;
+	right: 32px;
+	color: #eee;
+	padding: 8px;
+	z-index: 1;
+}
+
+body {
+	background-color: #111;
+	margin: 0;
+	padding: 0;
+}
+
+.draw {
+	position: fixed;
+	height: 1px;
+	width: 1px;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
